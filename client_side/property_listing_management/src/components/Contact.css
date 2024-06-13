@@ -1,0 +1,118 @@
+/* Container styles */
+.container-contact {
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Row styles */
+.row-contact {
+  margin-bottom: 20px;
+}
+
+/* Column styles */
+.col-contact {
+  padding: 0 15px;
+}
+
+/* Input field styles */
+.form-control-contact {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.form-control-contact:focus {
+  border-color: #007bff;
+}
+
+/* Textarea styles */
+textarea.form-control-contact {
+  resize: vertical;
+}
+
+/* Button styles */
+.btn-contact {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-contact:hover {
+  background-color: #0056b3;
+}
+
+/* Heading styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Text styles */
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Error message styles */
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+}
+
+/* Success message styles */
+.success-message {
+  color: #28a745;
+  font-size: 14px;
+}
+
+/* Form validation styles */
+.invalid-input {
+  border-color: #dc3545 !important;
+}
+
+.valid-input {
+  border-color: #28a745 !important;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .container-contact {
+    padding: 10px;
+  }
+
+  .col-contact {
+    padding: 0;
+  }
+
+  .form-control-contact {
+    padding: 8px;
+  }
+
+  .btn-contact {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

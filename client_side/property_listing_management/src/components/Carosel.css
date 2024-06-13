@@ -1,0 +1,10 @@
+/* Carosel.css */
+.carosal-height {
+  height: 100vh; /* Default height for larger screens */
+}
+
+@media (max-width: 768px) {
+  .carosal-height {
+    height: 50vh; /* Adjust height for mobile devices */
+  }
+}

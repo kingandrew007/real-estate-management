@@ -1,0 +1,62 @@
+/* Container styles */
+.container-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card styles */
+.card-login {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.card-title-login {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Form styles */
+.form-group-login {
+  margin-bottom: 20px;
+}
+
+/* Form label styles */
+.form-label-login {
+  font-size: 16px;
+}
+
+/* Form control styles */
+.form-control-login {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  transition: border-color 0.3s;
+}
+
+.form-control-login:focus {
+  border-color: #007bff;
+}
+
+/* Submit button styles */
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
